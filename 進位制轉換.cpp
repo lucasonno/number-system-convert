@@ -44,6 +44,7 @@ int main() {
 			cout<<stk.top();
 			stk.pop();
 		}
+		cout<<endl;
 	}
 	else{            //若不是10進位制,先轉換為10進位制 
 		int b,c;     //轉換之進位制 
@@ -61,6 +62,7 @@ int main() {
 			cout<<stk.top();
 			stk.pop();
 		}
+		cout<<endl;
 	}
 	return 0;
 }
